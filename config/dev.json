@@ -1,0 +1,6 @@
+{
+  "service": {
+    "hostname": "reference.node.local.variate.io",
+    "port": 65535
+  }
+}

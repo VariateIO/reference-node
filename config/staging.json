@@ -1,0 +1,6 @@
+{
+  "service": {
+    "hostname": "reference.node.staging.variate.io",
+    "port": 65535
+  }
+}

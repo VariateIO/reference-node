@@ -1,0 +1,25 @@
+{
+  "name": "reference-node",
+  "version": "1.0.0",
+  "description": "Reference service basis for node APIs",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0",
+    "start": "./node_modules/.bin/pm2 start index.js --name reference-node --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@bitbucket.org:variateio/reference-node.git"
+  },
+  "author": "Variate IO <info@variate.io>",
+  "license": "LicenseRef-LICENSE",
+  "dependencies": {
+    "express": "^4.13.3",
+    "gulp": "^3.9.0"
+  },
+  "devDependencies": {
+    "gulp-webserver": "^0.9.1",
+    "hostile": "^1.0.2",
+    "pm2": "^1.0.0"
+  }
+}
